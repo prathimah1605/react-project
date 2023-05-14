@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alata&family=Rubik:ital,wght@0,300;0,400;1,300&display=swap');
+.topcontent {
+    color:white;
+    position: relative;
+    
+}
+.topcontent_container{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+.topcontent_container p {
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 3px;
+    padding-top: 20px;
+    font-size: x-large;
+    
+
+}
+.topcontent_container a button{
+    margin-top: 30px;
+    text-align: left;
+    margin-left:0;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+.topcontent_container h1 {
+    font-size: 50px;
+    font-family: "montserrat",sans-serif;
+    margin-right: 30px !important;
+}
+.topcontent_downloadbutton{
+    color: white;
+    background-color:#ad33fb;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-family: "montserrat",sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+.topcontent_downloadbutton:hover{
+    color: #ad33fb;
+    background-color: white;
+    font-weight: 600;
+}
+.topcontent_workbutton{
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 9px 45px;
+    font-family: "montserat",sans-serif;
+    font-family: 500;
+    cursor: pointer;
+}
+.topcontent_workbutton:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
